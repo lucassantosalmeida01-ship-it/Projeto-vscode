@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+  body{
+  background-color: rgb(38, 6, 112);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#app{
+    padding: 10px;
+    background: rgb(21, 0, 61);
+}
+
+main{
+    padding: 30px;
+    height: 100%;
+    display:flex; 
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+
+nav{
+    border-top: 2px solid white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+
+}
