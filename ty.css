@@ -12,8 +12,16 @@
 }
 
 #app{
-    padding: 10px;
     background: rgb(21, 0, 61);
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 500px;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    
+    
 }
 
 main{
@@ -23,6 +31,8 @@ main{
     flex-direction:column;
     align-items: center;
     text-align: center;
+    height: 100%;
+   
 }
 
 nav{
@@ -30,6 +40,33 @@ nav{
     display: flex;
     align-items: center;
     padding: 10px;
+    justify-content: space-between;
+    
 
+}
+body{
+    min-height: 100vh;
+}
 
+#msg{
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, rgb(0, 0, 37), blue);
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    margin-top: auto;
+    color: azure;
+    transition: 0.3s;
+}
+
+button:hover{
+    scale: 1.1;
 }
