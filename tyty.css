@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(39, 16, 0);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -14,7 +14,7 @@ main{
 }
 
 h1{
-    color:rgb(225, 248, 255);
+    color:rgb(191, 255, 165);
     text-align: center;
     margin: 20px;
 }
@@ -23,15 +23,15 @@ p{
     text-align: justify;
     font-size: 17px;
     line-height: 1.5;
-    color:rgb(243, 149, 247)
+    color:rgb(240, 241, 165)
 }
 
 strong{
-    color:rgb(0, 225, 255)
+    color:rgb(46, 241, 95)
 }
 i{
-    color:rgb(255, 200, 132)
+    color:rgb(255, 254, 238)
 }
 span{
     color:rgb(0, 17, 255);
-}s
+}
