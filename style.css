@@ -1,0 +1,16 @@
+h1 {
+    color: rgb(29, 38, 59);
+    font-size: 28px;
+}
+
+button {
+    background: grey;
+    color: azure;
+    padding: 5px;
+}
+
+#saida{
+    font-size:  20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgb(27, 20, 20);
+}
