@@ -1,19 +1,35 @@
 * {
+   
     margin: 0;
-    padding: 0;
+    padding: 10px;
     box-sizing: 0;
 }
 
 body {
     background-color: rgb(41, 22, 0);
-    color: rgb(149, 255, 128);
+    color: rgb(124, 240, 101);
     display: flex;
     justify-content: center;
     align-items: center;
+  
+}
+#subtitulo{
+    color: rgb(186, 255, 203);
+    
+}
+#img{
+  
+    background-image: url("https://santhatela.com.br/wp-content/uploads/2021/08/van-gogh-a-biblia-d.jpg");
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
 }
 
 #app {
-    background: rgb(34, 16, 0);
+    background: rgb(31, 15, 0);
     display: flex;
     flex-direction: column;
     width: 380px;
@@ -21,8 +37,6 @@ body {
     padding: 15px;
     border-radius: 25px;
     box-shadow: 0 0 10px rgba(198, 240, 101, 0.7);
-
-
 }
 
 main {
@@ -55,6 +69,7 @@ body {
     overflow-wrap: break-word;
     word-wrap: break-word;
     font-size: 18px;
+    
 }
 
 button {

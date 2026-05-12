@@ -12,3 +12,4 @@ function geradorMensagens() {
 }
 
 geradorMensagens()  
+/home/escola/Downloads/van-gogh-a-biblia-d.jpg
