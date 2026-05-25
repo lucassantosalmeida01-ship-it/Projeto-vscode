@@ -1,16 +1,33 @@
-h1 {
-    color: rgb(29, 38, 59);
-    font-size: 28px;
+*{
+    box-sizing: border-box;
+    background-color: rgb(242, 166, 202);   
 }
+main{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 850px;
+    height: 43px;
+    margin: 20px;
+    border: 20px;
+    background-color: rgb(89, 2, 34);
 
-button {
-    background: grey;
-    color: azure;
-    padding: 5px;
 }
-
-#saida{
-    font-size:  20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-color: rgb(27, 20, 20);
+h1{
+    background-color: rgb(146, 5, 64);
+    color: rgb(255, 240, 247);
+}
+h3{
+    color: rgb(231, 58, 118);
+}
+p{
+    color: rgb(231, 58, 118);
+}
+span{
+    color: rgb(231, 58, 118);
+}
+img{
+    width: 100%;
+    margin-top: 100px;
+    align-items: center;
 }
