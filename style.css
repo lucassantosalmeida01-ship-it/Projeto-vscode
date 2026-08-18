@@ -26,6 +26,11 @@ a {
     margin: 0 20px 0 0;
     cursor: pointer;
     color: #2b2a47;
+    transition: opacity 0.2s;
+}
+
+a:hover{
+    opacity: 0.8;    
 }
 
 .botao-login {
@@ -37,9 +42,78 @@ a {
     font-size: 20px;
     font-weight: 600;
     color: rgb(227, 231, 235);
-
+    transition: opacity 0.2s;
 }
 
 .botao-login:hover {
     opacity: 0.8;
+}
+
+.logo{
+    width: 40%;
+    vertical-align: middle;
+
+}
+
+.texto{
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 5%;
+    text-align: center;
+
+}
+
+main{
+    text-align: center;
+
+}
+
+
+.botao-explore{
+    width: 120px;
+    height: 34px;
+    cursor: pointer;
+    background: #8dff71;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s;
+
+}
+
+
+.botao-explore:hover{
+    opacity:0.7;
+
+}
+
+
+.titulo{
+    font-size: 35px;
+    font-weight: 900;
+    color: #515151;
+
+}
+
+.subtitulo{
+    color: #515151;
+    line-height: 1.5;
+    font-size: 25px;
+    
+
+}
+
+.paragrafo{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #848484;
+    text-align: justify;
+    margin: 20px 0 30px 0;
+    max-width: 500px;
+
+
 }
