@@ -19,17 +19,18 @@ header {
     margin: 30px, 0px, 144px, 70px;
 }
 
-a {
+.link-menu {
     font-weight: 600;
     font-size: 24px;
-    line-height: 28px;
-    margin: 0 20px 0 0;
+    line-height: 29px;
+    margin: 0 23px 0 0;
     cursor: pointer;
     color: #2b2a47;
-    transition: opacity 0.2s;
+    transition: opacity 0.3s;
+    text-decoration: none;
 }
 
-a:hover {
+.link-menu:hover {
     opacity: 0.8;
 }
 
@@ -49,7 +50,7 @@ a:hover {
     opacity: 0.8;
 }
 
-a {
+.link-menu {
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
@@ -190,12 +191,12 @@ footer {
 }
 
 
-.img-dog{
+.img-dog {
     display: block;
     width: 70%;
     height: 450px;
     object-fit: cover;
-    margin: 80px auto 0 auto ;
+    margin: 80px auto 0 auto;
     border-radius: 15px;
 
 }
@@ -208,7 +209,7 @@ footer {
 
     }
 
-    a {
+    .link-menu {
         font-weight: 500;
         font-size: 16px;
         line-height: 28px;
@@ -249,6 +250,6 @@ footer {
 
 
 
-.img-dog{
+.img-dog {
     max-height: 250px;
 }
