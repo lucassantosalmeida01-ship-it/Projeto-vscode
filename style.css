@@ -199,6 +199,41 @@ footer {
     margin: 80px auto 0 auto;
     border-radius: 15px;
 
+
+}
+
+.services{
+   padding: 10px 0 100px;
+}
+
+.h2-services{
+font-weight: 500;
+}
+
+.preco{
+
+}
+
+
+.lista-services{
+    width: 200px;
+    display: block;
+    text-decoration: none;
+    color: #515151;
+    border: 2px solid;
+    margin: 0 50px;
+    padding: 20px 0;
+    border-radius: 15px;
+    transition: box-shadow 0.2s, transform 0.2s;
+
+}
+.lista-services:hover{
+    box-shadow: 0 2px 5px rgba(40, 40, 126, 0.2);
+    transform: translate(-2px);
+}
+
+.img-card{
+    width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -246,10 +281,28 @@ footer {
     .titulo {
         font-size: 30px;
     }
-}
-
-
-
-.img-dog {
+    .img-dog {
     max-height: 250px;
+ }
+    .h2-services{
+font-weight: 400;
+
+font-weight: 400;
+font-size: 22px;
+
+
 }
+
+
+
+
+.lista-services{
+    width: 200px;
+    margin: 17px 10px;
+    padding: 16px 0;
+}
+
+}
+
+
+
