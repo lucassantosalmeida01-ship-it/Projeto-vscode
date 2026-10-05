@@ -19,8 +19,12 @@ header {
     margin: 30px, 0px, 144px, 70px;
 }
 
+.nome{
+    display: none;
+}
+
 .link-menu {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 24px;
     line-height: 29px;
     margin: 0 23px 0 0;
@@ -103,6 +107,44 @@ header {
 
 }
 
+nav{
+    display: inline block;
+
+}
+
+li{
+    display: inline-block;
+}
+
+header{
+    margin: 44px 0 144px 76px;
+    background-color: #f8f9fa;
+    padding: 30px 0 20px 0;
+    border-bottom: 2px solid  #f0f0f0;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.nome{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+n1{
+ color: #4c12aa;
+
+}
+
+n2{
+  color: rgba(28, 19, 211, 0.723);
+    
+}
+
 main {
     text-align: center;
 
@@ -116,7 +158,7 @@ main {
     background: #8dff71;
     border: none;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 500;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     transition: opacity 0.3s;
@@ -184,10 +226,11 @@ main {
 
 footer {
     text-align: center;
-    background: #f4f4f4;
-    padding: 60px;
+    background-color:#4c12aa;
+    padding: 80px 0 80px 0 ;
     font-size: 14px;
     margin-top: 100px;
+    color: f0f0f0;
 }
 
 
@@ -210,9 +253,7 @@ footer {
 font-weight: 500;
 }
 
-.preco{
 
-}
 
 
 .lista-services{
@@ -238,7 +279,7 @@ font-weight: 500;
 
 @media (max-width: 768px) {
     header {
-        margin: 30px 60px 0;
+        margin: 0px 0 60px 0;
         text-align: center;
         width: 100%;
 
@@ -279,7 +320,9 @@ font-weight: 500;
     }
 
     .titulo {
-        font-size: 30px;
+        font-size: 30px;.preco{
+
+}
     }
     .img-dog {
     max-height: 250px;
