@@ -15,6 +15,129 @@
 }
 
 
+
+
+.link-menu{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: #c2c2c2;
+    border: none;
+    font-size: 20px;
+    font-weight: 550;
+
+    .link-menu {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        background: #3d3d3d;
+        border: none;
+        font-size: 20px;
+        font-weight: 550px;
+        color: rgb(227, 231, 235);
+        transition: opacity 0.2s;
+    }
+
+    color: rgb(227, 231, 235);
+    transition: opacity 0.2s;
+
+}
+
+
+.link-menu{
+        width: 100px;
+        height: 40px;
+        border-radius: 15px;
+
+        font-size: 20px;
+        font-weight: 600;
+}
+
+
+.link-about{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: #c2c2c2;
+    border: none;
+    font-size: 20px;
+    font-weight: 550;
+
+    .link-about {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        background: #3d3d3d;
+        border: none;
+        font-size: 20px;
+        font-weight: 550;
+        color: rgb(227, 231, 235);
+        transition: opacity 0.2s;
+    }
+
+    color: rgb(227, 231, 235);
+    transition: opacity 0.2s;
+
+}
+
+
+.link-services{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: #c2c2c2;
+    border: none;
+    font-size: 20px;
+    font-weight: 550;
+
+    .link-services {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        background: #3d3d3d;
+        border: none;
+        font-size: 20px;
+        font-weight: 550;
+        color: rgb(227, 231, 235);
+        transition: opacity 0.2s;
+    }
+
+    color: rgb(227, 231, 235);
+    transition: opacity 0.2s;
+
+}
+
+
+.link-contact{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background: #c2c2c2;
+    border: none;
+    font-size: 20px;
+    font-weight: 550;
+
+    .link-contact {
+        width: 150px;
+        height: 40px;
+        border-radius: 10px;
+        background: #3d3d3d;
+        border: none;
+        font-size: 20px;
+        font-weight: 550;
+        color: rgb(227, 231, 235);
+        transition: opacity 0.2s;
+    }
+
+    color: rgb(227, 231, 235);
+    transition: opacity 0.2s;
+
+}
+
+
+
+
+
 main{
     background-color: #424242;
 }
@@ -52,112 +175,6 @@ p{
     border-radius: 15px;
 }
 
-.link-menu{
-    width: 130px;
-    height: 38px;
-    border-radius: 20px;
-    background: #c2c2c2;
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
-
-    .link-menu {
-        width: 130px;
-        height: 38px;
-        border-radius: 20px;
-        background: #3d3d3d;
-        border: none;
-        font-size: 20px;
-        font-weight: 600;
-        color: rgb(227, 231, 235);
-        transition: opacity 0.2s;
-    }
-
-    color: rgb(227, 231, 235);
-    transition: opacity 0.2s;
-
-}
-
-
-.link-about{
-    width: 130px;
-    height: 38px;
-    border-radius: 20px;
-    background: #c2c2c2;
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
-
-    .link-about {
-        width: 130px;
-        height: 38px;
-        border-radius: 20px;
-        background: #3d3d3d;
-        border: none;
-        font-size: 20px;
-        font-weight: 600;
-        color: rgb(227, 231, 235);
-        transition: opacity 0.2s;
-    }
-
-    color: rgb(227, 231, 235);
-    transition: opacity 0.2s;
-
-}
-
-
-.link-services{
-    width: 130px;
-    height: 38px;
-    border-radius: 20px;
-    background: #c2c2c2;
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
-
-    .link-services {
-        width: 130px;
-        height: 38px;
-        border-radius: 20px;
-        background: #3d3d3d;
-        border: none;
-        font-size: 20px;
-        font-weight: 600;
-        color: rgb(227, 231, 235);
-        transition: opacity 0.2s;
-    }
-
-    color: rgb(227, 231, 235);
-    transition: opacity 0.2s;
-
-}
-
-
-.link-contact{
-    width: 130px;
-    height: 38px;
-    border-radius: 20px;
-    background: #c2c2c2;
-    border: none;
-    font-size: 20px;
-    font-weight: 600;
-
-    .link-contact {
-        width: 130px;
-        height: 38px;
-        border-radius: 20px;
-        background: #3d3d3d;
-        border: none;
-        font-size: 20px;
-        font-weight: 600;
-        color: rgb(227, 231, 235);
-        transition: opacity 0.2s;
-    }
-
-    color: rgb(227, 231, 235);
-    transition: opacity 0.2s;
-
-}
 
 
 .copy-a{
